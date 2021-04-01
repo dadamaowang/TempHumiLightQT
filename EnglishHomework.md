@@ -12,7 +12,7 @@ https://mooc1-1.chaoxing.com/mycourse/studentstudy?chapterId=419658072&courseId=
 
 here is the image in the directory
 
-![git](C:\shelf\Projects\RemoteTempHumiLight\TempHumiLightQT\git.jpg)
+![git](https://github.com/dadamaowang/TempHumiLightQT/blob/main/git.jpg)
 
 here is the image on the website:
 
