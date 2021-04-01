@@ -16,3 +16,5 @@ USB数据线若干
 IAR Embedded Workbench8051 6.4
 QT Creater Community 4.11.1 / 4.13.2
 
+# ！FOR ENGLISH HOMEWORK!https://github.com/dadamaowang/TempHumiLightQT/blob/main/EnglishHomework.md
+
