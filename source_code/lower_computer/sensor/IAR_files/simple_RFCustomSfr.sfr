@@ -1,0 +1,35 @@
+[Sfr]
+sfr = "P0",	"SFR",	0x80,	1,	base=16,	modified
+sfr = "P1",	"SFR",	0x90,	1,	base=16,	modified
+sfr = "P2",	"SFR",	0xa0,	1,	base=16,	modified
+sfr = "IEN2",	"SFR",	0x9a,	1,	base=16,	modified
+sfr = "PCON",	"SFR",	0x87,	1,	base=16,	modified
+sfr = "WDCTL",	"SFR",	0xc9,	1,	base=16,	modified
+sfr = "IP0.IP0_IPG0",	"SFR",	0xa9,	1,	base=16,	modified
+sfr = "ACC",	"SFR",	0xe0,	1,	base=16,	modified
+sfr = "DMAIRQ",	"SFR",	0xd1,	1,	base=16,	modified
+sfr = "DMA1CFGH",	"SFR",	0xd3,	1,	base=16,	modified
+sfr = "DMAARM",	"SFR",	0xd6,	1,	base=16,	modified
+sfr = "DMAARM.DMAARM2",	"SFR",	0xd6,	1,	base=16,	modified
+sfr = "DMAARM.DMAARM0",	"SFR",	0xd6,	1,	base=16,	modified
+sfr = "P0IFG.P0IF_6",	"SFR",	0x89,	1,	base=16,	modified
+sfr = "P0IFG.P0IF_5",	"SFR",	0x89,	1,	base=16,	modified
+sfr = "U1CSR.TX_BYTE",	"SFR",	0xf8,	1,	base=16,	modified
+sfr = "DPL",	"SFR",	0x82,	1,	base=16,	modified
+sfr = "DPH",	"SFR",	0x83,	1,	base=16,	modified
+sfr = "IE",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "TMOD",	"SFR",	0x89,	1,	base=16,	modified
+sfr = "TL1",	"SFR",	0x8b,	1,	base=16,	modified
+sfr = "TH0",	"SFR",	0x8c,	1,	base=16,	modified
+sfr = "T2MOD",	"SFR",	0xc9,	1,	base=16,	modified
+sfr = "RCAP2L",	"SFR",	0xca,	1,	base=16,	modified
+sfr = "RCAP2H",	"SFR",	0xcb,	1,	base=16,	modified
+sfr = "TL2",	"SFR",	0xcc,	1,	base=16,	modified
+sfr = "TH2",	"SFR",	0xcd,	1,	base=16,	modified
+sfr = "P3",	"SFR",	0xb0,	1,	base=16,	modified
+sfr = "SCON",	"SFR",	0x98,	1,	base=16,	modified
+sfr = "SBUF",	"SFR",	0x99,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "P0", "P1", "P2", "IEN2", "PCON", "WDCTL"
