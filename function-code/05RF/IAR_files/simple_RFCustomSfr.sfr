@@ -1,0 +1,11 @@
+[Sfr]
+sfr = "P1SEL.SELP1_6",	"SFR",	0xf4,	1,	base=16,	modified
+sfr = "P1SEL.SELP1_4",	"SFR",	0xf4,	1,	base=16,	modified
+sfr = "P1SEL.SELP1_2",	"SFR",	0xf4,	1,	base=16,	modified
+sfr = "P2SEL.PRI3P1",	"SFR",	0xf5,	1,	base=16,	modified
+sfr = "P2SEL.PRI0P1",	"SFR",	0xf5,	1,	base=16,	modified
+sfr = "P1INP.MDP1_7",	"SFR",	0xf6,	1,	base=16,	modified
+sfr = "P1INP.MDP1_6",	"SFR",	0xf6,	1,	base=16,	modified
+
+
+[SfrGroupInfo]

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4136270024</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\P0INT_main.r51</file>
+      <file>$PROJ_DIR$\..\include\hal_mcu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\iic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\INT.d51</file>
+      <file>$PROJ_DIR$\Debug\Obj\INT.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\P0INT_main.pbi</file>
+      <file>$TOOLKIT_DIR$\config\lnk51ew_cc2530.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\iic.r51</file>
+      <file>$PROJ_DIR$\..\include\hal_defs.h</file>
+      <file>$PROJ_DIR$\..\include\hal_types.h</file>
+      <file>$PROJ_DIR$\..\source\P0INT_main.c</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nlxd-1e16x01.r51</file>
+      <file>$TOOLKIT_DIR$\config\lnk_base.xcl</file>
+      <file>$PROJ_DIR$\..\source\iic.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\INT.d51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 7 13 1 8 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\INT.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 6 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\P0INT_main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 0 2 9 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 2 9 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\iic.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 0 2 9 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 2 9 10</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

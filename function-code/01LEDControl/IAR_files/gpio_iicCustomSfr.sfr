@@ -1,0 +1,10 @@
+[Sfr]
+sfr = "STCV2",	"XData",	0x62b4,	1,	base=16,	modified
+sfr = "RFIRQM0.FIFOP",	"XData",	0x61a3,	1,	base=16,	modified
+sfr = "RFERRM.TXUNDERF",	"XData",	0x61a5,	1,	base=16,	modified
+sfr = "FSCAL2.VCO_CAPARR",	"XData",	0x61af,	1,	base=16,	modified
+sfr = "FSCAL3",	"XData",	0x61b0,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "STCV2"

@@ -1,0 +1,52 @@
+[Sfr]
+sfr = "IP1",	"SFR",	0xb9,	1,	base=16,	modified
+sfr = "DPS",	"SFR",	0x92,	1,	base=16,	modified
+sfr = "MPAGE",	"SFR",	0x93,	1,	base=16,	modified
+sfr = "DMAIRQ",	"SFR",	0xd1,	1,	base=16,	modified
+sfr = "DMA1CFGL",	"SFR",	0xd2,	1,	base=16,	modified
+sfr = "DMAARM",	"SFR",	0xd6,	1,	base=16,	modified
+sfr = "DMAREQ",	"SFR",	0xd7,	1,	base=16,	modified
+sfr = "P1IFG",	"SFR",	0x8a,	1,	base=16,	modified
+sfr = "P2IFG",	"SFR",	0x8b,	1,	base=16,	modified
+sfr = "APCFG",	"SFR",	0xf2,	1,	base=16,	modified
+sfr = "P0SEL",	"SFR",	0xf3,	1,	base=16,	modified
+sfr = "P1SEL",	"SFR",	0xf4,	1,	base=16,	modified
+sfr = "P2INP",	"SFR",	0xf7,	1,	base=16,	modified
+sfr = "P0DIR",	"SFR",	0xfd,	1,	base=16,	modified
+sfr = "FMAP",	"SFR",	0x9f,	1,	base=16,	modified
+sfr = "STCV1",	"XData",	0x62b3,	1,	base=16,	modified
+sfr = "OPAMPMC",	"XData",	0x61a6,	1,	base=16,	modified
+sfr = "CMPCTL",	"XData",	0x62d0,	1,	base=16,	modified
+sfr = "PCON",	"SFR",	0x87,	1,	base=16,	modified
+sfr = "SLEEPCMD",	"SFR",	0xbe,	1,	base=16,	modified
+sfr = "CLD",	"XData",	0x6290,	1,	base=16,	modified
+sfr = "T1CC4H",	"XData",	0x62af,	1,	base=16,	modified
+sfr = "T2MOVF0",	"SFR",	0xa4,	1,	base=16,	modified
+sfr = "T2CTRL",	"SFR",	0x94,	1,	base=16,	modified
+sfr = "T3CC1",	"SFR",	0xcf,	1,	base=16,	modified
+sfr = "T4CNT",	"SFR",	0xea,	1,	base=16,	modified
+sfr = "FADDRL",	"XData",	0x6271,	1,	base=16,	modified
+sfr = "FRMFILT1",	"XData",	0x6181,	1,	base=16,	modified
+sfr = "FREQTUNE",	"XData",	0x618e,	1,	base=16,	modified
+sfr = "TXFIFOCNT",	"XData",	0x619c,	1,	base=16,	modified
+sfr = "RXFIRST_PTR",	"XData",	0x619d,	1,	base=16,	modified
+sfr = "PTEST1",	"XData",	0x61bf,	1,	base=16,	modified
+sfr = "CSPPROG3",	"XData",	0x61c3,	1,	base=16,	modified
+sfr = "CSPPROG8",	"XData",	0x61c8,	1,	base=16,	modified
+sfr = "CSPPROG13",	"XData",	0x61cd,	1,	base=16,	modified
+sfr = "CSPPROG18",	"XData",	0x61d2,	1,	base=16,	modified
+sfr = "CSPPROG22",	"XData",	0x61d6,	1,	base=16,	modified
+sfr = "CSPCTRL",	"XData",	0x61e0,	1,	base=16,	modified
+sfr = "CSPX",	"XData",	0x61e2,	1,	base=16,	modified
+sfr = "CHVER",	"XData",	0x6249,	1,	base=16,	modified
+sfr = "CHVER.VERSION",	"XData",	0x6249,	1,	base=16,	modified
+sfr = "CHIPID",	"XData",	0x624a,	1,	base=16,	modified
+sfr = "PTEST0",	"XData",	0x61be,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "IP1", "DPS", "MPAGE", "DMAIRQ"
+group = "Custom", "DMA1CFGL", "DMAARM", "DMAREQ", "P1IFG", "P2IFG", "APCFG", "P0SEL", "P1SEL", "P2INP", "P0DIR", "FMAP", "STCV1", "OPAMPMC", "CMPCTL", "PCON", "SLEEPCMD", "CLD", "T1CC4H", "T2MOVF0"
+group = "Custom", "T2CTRL", "T3CC1", "T4CNT", "FADDRL", "FRMFILT1", "FREQTUNE", "TXFIFOCNT", "RXFIRST_PTR", "PTEST1"
+group = "Custom", "CSPPROG3", "CSPPROG8", "CSPPROG13", "CSPPROG18", "CSPPROG22", "CSPCTRL", "CSPX", "CHVER", "CHVER.VERSION"
+group = "Custom", "CHIPID"
