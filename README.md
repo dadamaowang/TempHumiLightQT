@@ -12,6 +12,25 @@ TempHumiLightQT : A complete project to check and adjust the temperature, humity
 TempHumiLightQT :完整的检查并调整室内温度，光照，湿度的程序
 
 
+## TempHumiLightQT
+
+![01](https://github.com/dadamaowang/TempHumiLightQT/blob/main/supplementaryMaterials/01.PNG)
+
+![02](https://github.com/dadamaowang/TempHumiLightQT/blob/main/supplementaryMaterials/02.PNG)
+
+![03](https://github.com/dadamaowang/TempHumiLightQT/blob/main/supplementaryMaterials/03.PNG)
+
+![04](https://github.com/dadamaowang/TempHumiLightQT/blob/main/supplementaryMaterials/04.PNG)
+
+![05](https://github.com/dadamaowang/TempHumiLightQT/blob/main/supplementaryMaterials/05.PNG)
+
+![06](https://github.com/dadamaowang/TempHumiLightQT/blob/main/supplementaryMaterials/06.PNG)
+
+![07](https://github.com/dadamaowang/TempHumiLightQT/blob/main/supplementaryMaterials/07.PNG)
+
+![08](https://github.com/dadamaowang/TempHumiLightQT/blob/main/supplementaryMaterials/08.PNG)
+
+
 
 ## requirements
 
