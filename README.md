@@ -56,25 +56,20 @@ QT Creater Community 4.11.1 / 4.13.2
 
 ## Content
 
-function-code  realized some functions. Including:
-
-01LEDControl: Light 6 LED in turn
-
-02Interrupt: Test for interrupt
-
-03SensorA : Control  sensors
-
-04SimpleRF: Simple RF communication
-
-05RF: RF communication
-
-06Spectrum: Analyze the Spectrum of each channel
-
-07Net: A tree-topology wireless network
-
-08Syn: Synchronization of wireless nodes
-
-
+function-code realized some functions. Including:
+- LEDControl: Light 6 LED in turn
+- Interrupt: Test for interrupt
+- Sensor: Control  sensors
+- SimpleRF: Simple RF communication
+- RF: RF communication
+- Spectrum: Analyze the Spectrum of each channel
+- Net: A tree-topology wireless network
+- Syn: Synchronization of wireless nodes
 
 source-code : the TempHumiLightQT project
+
+
+
+
+
 
